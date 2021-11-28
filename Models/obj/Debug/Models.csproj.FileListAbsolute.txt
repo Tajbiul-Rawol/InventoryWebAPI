@@ -13,3 +13,4 @@ D:\InventoryProject\InventoryWebAPI\Models\bin\Debug\Models.pdb
 D:\InventoryProject\InventoryWebAPI\Models\obj\Debug\Models.dll
 D:\InventoryProject\InventoryWebAPI\Models\obj\Debug\Models.pdb
 D:\InventoryProject\InventoryWebAPI\Models\obj\Debug\Models.csprojResolveAssemblyReference.cache
+D:\InventoryProject\InventoryWebAPI\Models\bin\Debug\Newtonsoft.Json.dll

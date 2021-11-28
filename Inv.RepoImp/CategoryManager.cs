@@ -30,22 +30,6 @@ namespace Inv.RepoImp
 
         public int SaveCategory(Category category)
         {
-            int categoryID = 0;
-            if (category.ID == 0)
-            {
-                var result = _dbContext.Categories.OrderByDescending(c => c.ID).ToList();
-                var categoryData = result.First();
-                categoryID = categoryData.ID + 1;
-
-                DataAccess.Category ct = new DataAccess.Category()
-                {
-                    ID = categoryID,
-                    Name = category.Name,
-                    CategoryType = category.CategoryType
-                };
-                _dbContext.Categories.Add(ct);
-                return _dbContext.SaveChanges();
-            }
             DataAccess.Category cat = new DataAccess.Category()
             {
                 ID = category.ID,

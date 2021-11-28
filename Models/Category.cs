@@ -9,10 +9,8 @@ namespace Models
 {
     public class Category
     {
-        [Key]
-        [Required]
+
         public int ID { get; set; }
-        [Required]
         public string Name { get; set; }
         public string CategoryType { get; set; }
 

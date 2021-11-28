@@ -34,34 +34,29 @@ namespace Inv.RepoImp
 
         public int SaveProduct(Product product)
         {
-            int productID = 0;
-            if (product.ID == 0)
-            {
-                var result = _dbContext.Products.OrderByDescending(p => p.ID).ToList();
-                var productData = result.First();
-                productID = productData.ID+1;
-               
-                DataAccess.Product pd = new DataAccess.Product()
+
+               var store =  _dbContext.Stores.Where(s => s.ID == product.StoreId);
+                try
                 {
-                    ID = productID,
-                    ProductDetail = product.ProductDetail,
-                    Price = product.Price,
-                    ProductType = product.ProductType,
-                    ProductName = product.ProductName
-                };
-                _dbContext.Products.Add(pd);
-                return _dbContext.SaveChanges();
-            }
-            DataAccess.Product prod = new DataAccess.Product()
-            {
-                ID = product.ID,
-                ProductDetail = product.ProductDetail,
-                Price = product.Price,
-                ProductType = product.ProductType,
-                ProductName = product.ProductName
-            };
-            _dbContext.Products.Add(prod);
-            return _dbContext.SaveChanges();
+                    DataAccess.Product pd = new DataAccess.Product()
+                    {
+                        ProductDetail = product.ProductDetail,
+                        Price = product.Price,
+                        ProductType = product.ProductType,
+                        ProductName = product.ProductName,
+                        StoreID = product.StoreId,
+                        CategoryID = product.CategoryId
+                    };
+                    _dbContext.Products.Add(pd);
+                    return _dbContext.SaveChanges();
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e);
+                    throw;
+                }
+            
+
         }
 
         public Product GetProductById(int ID)

@@ -5,6 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
 
 namespace Models
 {
@@ -20,10 +21,15 @@ namespace Models
         public decimal Price { get; set; }
         [Required]
         public string ProductType { get; set; }
-        [Required]
-        public int CategoryID { get; set; }
+        public int CategoryId { get; set; }
+        public int StoreId { get; set; }
 
-        [ForeignKey("CategoryID")]
+        [ForeignKey("CategoryId")]
+        [JsonIgnore]
         public Category Category { get; set; }
+
+        [ForeignKey("StoreId")]
+        [JsonIgnore]
+        public Store StoreData { get; set; }
     }
 }

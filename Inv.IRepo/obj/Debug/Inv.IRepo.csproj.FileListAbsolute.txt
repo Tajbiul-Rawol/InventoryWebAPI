@@ -19,3 +19,4 @@ D:\InventoryProject\InventoryWebAPI\Inv.IRepo\bin\Debug\Models.pdb
 D:\InventoryProject\InventoryWebAPI\Inv.IRepo\obj\Debug\Inv.IRepo.csprojResolveAssemblyReference.cache
 D:\InventoryProject\InventoryWebAPI\Inv.IRepo\obj\Debug\Inv.IRepo.dll
 D:\InventoryProject\InventoryWebAPI\Inv.IRepo\obj\Debug\Inv.IRepo.pdb
+D:\InventoryProject\InventoryWebAPI\Inv.IRepo\bin\Debug\Newtonsoft.Json.dll

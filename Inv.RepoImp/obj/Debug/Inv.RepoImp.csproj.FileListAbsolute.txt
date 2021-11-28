@@ -46,3 +46,4 @@ D:\InventoryProject\InventoryWebAPI\Inv.RepoImp\bin\Debug\EntityFramework.SqlSer
 D:\InventoryProject\InventoryWebAPI\Inv.RepoImp\obj\Debug\Inv.RepoImp.csprojResolveAssemblyReference.cache
 D:\InventoryProject\InventoryWebAPI\Inv.RepoImp\obj\Debug\Inv.RepoImp.dll
 D:\InventoryProject\InventoryWebAPI\Inv.RepoImp\obj\Debug\Inv.RepoImp.pdb
+D:\InventoryProject\InventoryWebAPI\Inv.RepoImp\bin\Debug\Newtonsoft.Json.dll
