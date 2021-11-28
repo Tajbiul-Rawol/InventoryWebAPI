@@ -57,7 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DataAccess\DataAccess.csproj">
-      <Project>{d59881ed-f4fb-4a40-af36-5d543c1946ed}</Project>
+      <Project>{56efa36b-26d4-4098-97d9-da28cf75588a}</Project>
       <Name>DataAccess</Name>
     </ProjectReference>
     <ProjectReference Include="..\Inv.IRepo\Inv.IRepo.csproj">

@@ -1,0 +1,10 @@
+D:\InventoryProject\InventoryWebAPI\DataAccess\bin\Debug\DataAccess.dll.config
+D:\InventoryProject\InventoryWebAPI\DataAccess\bin\Debug\DataAccess.dll
+D:\InventoryProject\InventoryWebAPI\DataAccess\bin\Debug\DataAccess.pdb
+D:\InventoryProject\InventoryWebAPI\DataAccess\bin\Debug\EntityFramework.dll
+D:\InventoryProject\InventoryWebAPI\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+D:\InventoryProject\InventoryWebAPI\DataAccess\bin\Debug\EntityFramework.xml
+D:\InventoryProject\InventoryWebAPI\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+D:\InventoryProject\InventoryWebAPI\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+D:\InventoryProject\InventoryWebAPI\DataAccess\obj\Debug\DataAccess.dll
+D:\InventoryProject\InventoryWebAPI\DataAccess\obj\Debug\DataAccess.pdb
