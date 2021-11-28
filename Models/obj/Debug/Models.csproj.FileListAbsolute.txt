@@ -1,0 +1,15 @@
+E:\InventoryWebAPI\Models\bin\Debug\Models.dll
+E:\InventoryWebAPI\Models\bin\Debug\Models.pdb
+E:\InventoryWebAPI\Models\obj\Debug\Models.csprojResolveAssemblyReference.cache
+E:\InventoryWebAPI\Models\obj\Debug\Models.dll
+E:\InventoryWebAPI\Models\obj\Debug\Models.pdb
+E:\InventoryProject\InventoryWebAPI\Models\bin\Debug\Models.dll
+E:\InventoryProject\InventoryWebAPI\Models\bin\Debug\Models.pdb
+E:\InventoryProject\InventoryWebAPI\Models\obj\Debug\Models.csprojResolveAssemblyReference.cache
+E:\InventoryProject\InventoryWebAPI\Models\obj\Debug\Models.dll
+E:\InventoryProject\InventoryWebAPI\Models\obj\Debug\Models.pdb
+D:\InventoryProject\InventoryWebAPI\Models\bin\Debug\Models.dll
+D:\InventoryProject\InventoryWebAPI\Models\bin\Debug\Models.pdb
+D:\InventoryProject\InventoryWebAPI\Models\obj\Debug\Models.dll
+D:\InventoryProject\InventoryWebAPI\Models\obj\Debug\Models.pdb
+D:\InventoryProject\InventoryWebAPI\Models\obj\Debug\Models.csprojResolveAssemblyReference.cache
